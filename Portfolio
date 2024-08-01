@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Engineering Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
+        .container { width: 80%; margin: auto; overflow: hidden; }
+        header { background: #333; color: #fff; padding-top: 30px; min-height: 70px; border-bottom: #77aaff 3px solid; }
+        header a { color: #fff; text-decoration: none; text-transform: uppercase; font-size: 16px; }
+        header ul { padding: 0; list-style: none; }
+        header li { display: inline; padding: 0 20px 0 20px; }
+        .content { padding: 20px; }
+        h1, h2, h3, h4 { color: #333; }
+        a { color: #77aaff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>John Doe</h1>
+            <ul>
+                <li><a href="#professional-summary">Professional Summary</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#technical-skills">Technical Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#honors-awards">Honors & Awards</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container content">
+        <section id="professional-summary">
+            <h2>Professional Summary</h2>
+            <p>Highly motivated and technically proficient engineering student with comprehensive experience in aerospace and mechanical engineering principles...</p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>Rensselaer Polytechnic Institute (RPI)</strong></p>
+            <ul>
+                <li><strong>Bachelor of Science in Aerospace and Mechanical Engineering</strong></li>
+                <li>Minor in Economics</li>
+                <li>Expected Graduation: May 2025</li>
+            </ul>
+        </section>
+        <section id="technical-skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>CAD Software:</strong> SolidWorks, AutoCAD, CATIA</li>
+                <li><strong>Programming Languages:</strong> Python, MATLAB, C++</li>
+                <li><strong>Simulation Software:</strong> ANSYS, MATLAB Simulink</li>
+                <li><strong>Laboratory Testing:</strong> Material testing, wind tunnel testing, structural analysis</li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <h3>GE Vernova</h3>
+            <p><strong>Steampath Design Intern</strong> (Summer 2023)</p>
+            <ul>
+                <li>Developed CAD models for steam turbine components.</li>
+                <li>Conducted thermal and structural analysis using ANSYS.</li>
+                <li>Collaborated with cross-functional teams to optimize design processes.</li>
+            </ul>
+            <h3>Cross-Country Mortgage LLC</h3>
+            <p><strong>Engineering Intern</strong> (Summer 2022)</p>
+            <ul>
+                <li>Assisted in the development of automated processes for mortgage applications.</li>
+                <li>Utilized Python to improve data handling and processing efficiency.</li>
+                <li>Supported the engineering team in various project management tasks.</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <h3>Senior Design Project</h3>
+            <p><strong>Design and Optimization of a Hybrid Rocket Engine</strong></p>
+            <ul>
+                <li>Led a team of four in the design and testing of a hybrid rocket engine.</li>
+                <li>Utilized SolidWorks for 3D modeling and ANSYS for structural and thermal analysis.</li>
+                <li>Successfully tested a prototype and documented results in a comprehensive report.</li>
+            </ul>
+            <h3>Course Project: Aerodynamics</h3>
+            <p><strong>Wind Tunnel Testing of Airfoil Designs</strong></p>
+            <ul>
+                <li>Conducted wind tunnel experiments to analyze the aerodynamic performance of different airfoil shapes.</li>
+                <li>Used MATLAB for data analysis and presentation of results.</li>
+            </ul>
+        </section>
+        <section id="honors-awards">
+            <h2>Honors & Awards</h2>
+            <ul>
+                <li><strong>RPI Dean’s List:</strong> 2019 - 2024</li>
+                <li><strong>GE Vernova Internship Excellence Award:</strong> 2023</li>
+                <li><strong>FIRST Robotics Volunteer of the Year:</strong> 2022</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 John Doe</p>
+            <p><a href="https://example.com/resume.pdf">Download Resume (PDF)</a></p>
+        </div>
+    </footer>
+</body>
+</html>
